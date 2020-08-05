@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign Up Form Design</title>
+    <link rel="stylesheet" type="text/css" href="../../css/Style.css">
+    
+<a href="../../index.html" style="text-decoration: none" ><button class="buttonA" type="home" >Home Page</button></a><br>
+<a href="../Logins/Login.html" style="text-decoration: none" ><button class="buttonA" type="loginpage">Login Page</button></a><br>
+<style type="text/css">
+    body{
+    margin: 0;
+    padding: 0;
+    background: url(../../images/pic4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+</style>
+<body>
+    <div class="signupbox2">
+    <img src="../../images/avatar.png" class="avatar">
+        <h1>Sign Up</h1>
+        <form method="post" action="workersignup.php"> 
+            <p>Name</p>
+            <input type="text1" name="fname" placeholder="First Name" >
+            <input type="text2" name="lname" placeholder="Last Name">
+            <p>National ID</p>
+            <input type="text" name="userid" placeholder="Enter NID">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter A Password">
+            <p>Phone Number</p>
+            <input type="phonenumber" name="phone" placeholder="Enter Phone Number">
+            <p>Email</p>
+            <input type="text" name="mail" placeholder="Enter Email Address">
+            <p>Gender</p>
+            <select type="text3" name="gender">
+                <option type="select" value="Male" >Male</option>
+                <option type="select" value="Female" >Female</option>
+                <option type="select" value="Others" >Others</option>
+            </select>
+            <p2></p2>
+            <select type="text4" name="catagory">
+                <option type="select" value="Cleaner" >Cleaners</option>
+                <option type="select" value="Electrician" >Electrician</option>
+                <option type="select" value="Plumber" >Plumber</option>
+                <option type="select" value="Painter" >Painter</option>
+                <option type="select" value="Carpenter" >Carpenter</option>
+                <option type="select" value="Labor" >Labor</option>
+                <option type="select" value="Mechanic" >Car Mechanic</option>
+                <option type="select" value="Caters" >Catering</option>
+                <option type="select" value="Event manager" >Event Planner</option>
+                <option type="select" value="Security" >Sequrity</option>
+                <option type="select" value="Faculty" >Faculty</option>
+                <option type="select" value="Others" >Others</option>
+            </select>
+            <input type="submit" name="submit" value="Sign Up">
+        </form>
+        
+    </div>
+
+</body>
+</head>
+</html>
